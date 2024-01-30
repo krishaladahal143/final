@@ -1,0 +1,134 @@
+/* Carousel */
+.first-background {
+    background-image: url(../images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 150px;
+}
+.container {
+    margin-left: 150px;
+    margin-right: 150px !important;
+}
+.carousel-inner {
+    background-image: url(../images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: 430px 100px;
+    background-size: 8% 75%;
+}
+.carousel-indicators [data-bs-target] {
+    background-image: linear-gradient(to bottom, darkorange 0%, orange 100%);
+    position: relative;
+    bottom: -70px;
+    right: 170px;
+    height: 6px;
+    width: 20px;
+    border-radius: 10px;
+}
+.btn-class {
+    background-image: linear-gradient(to bottom, gray 0%, black 100%);
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+
+/* Product */
+#product {
+    margin-top: 100px;
+}
+.card-body, .card-footer{
+    text-align: center;
+}
+.card-footer {
+    background-color: rgba(0,0,0,.0);;
+    border-top: none;
+}
+.product-card {
+    margin: auto;
+    padding: 30px 0px;
+    width: 70%;
+}
+.card {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 10px 10px 20px lightgray;
+    width: 100%;
+}
+.cat-name {
+    margin-bottom: 30px;
+}
+.cat-name a {
+    text-decoration: none;
+    font-size: 20px;
+    color: darkorange;
+    font: bold;
+    padding-top: 20px;
+}
+
+/* Categories */
+#categories {
+    margin-top: 100px;
+}
+.pale-order img {
+    width: 90%;
+}
+.dot {
+    width: 120px;
+    height: 7px;
+    border-radius: 5px;
+    background-image: linear-gradient(90deg, #e7cd93 0%, #ff8d02 100%);
+}
+.categorie-image {
+    margin-top: 80px;
+}
+.cat-1 {
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    margin-left: auto;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: 10px 10px 20px lightgray;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+} 
+.bag{
+    margin-top: 20px;
+}
+.bag h6 {
+    margin-top: 20px;
+}
+.cat-2 {
+    margin-left: auto;
+}
+
+.perfume, .shoe {
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    margin: 10px;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 10px 10px 20px lightgray;
+    text-align: center;
+    margin-left: 0px;
+}
+.perfume img {
+    margin-top: 20px;
+}
+.perfume h6 {
+    margin-top: 20px;
+}
+.shoe {
+    margin-top: 40px;
+}
+.last-margin {
+    margin-bottom: 100px;
+}
+
+/* Footer  */
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
